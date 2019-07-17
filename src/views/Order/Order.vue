@@ -6,7 +6,7 @@
       </a>
     </header>
     <section class="order_no_login">
-      <img src="../../../static/images/person.png">
+      <img src='./images/logo.png'>
       <h3>登录后查看外卖订单</h3>
       <button>立即登陆</button>
     </section>
