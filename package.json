@@ -11,8 +11,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cordova": "^9.0.0",
+    "mint-ui": "^2.2.13",
+    "serve": "^11.1.0",
+    "swiper": "^4.5.0",
+    "vconsole": "^3.3.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -51,6 +57,8 @@
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",

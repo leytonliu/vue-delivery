@@ -3,13 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
 Vue.config.productionTip = false
+
+// 引入vConsole
+var VConsole = require('vconsole')
+/* eslint-disable-next-line */
+var vConsole = new VConsole();
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })
