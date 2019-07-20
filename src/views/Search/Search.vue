@@ -21,7 +21,6 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/mixins.styl"
-
   .search  //搜索
     width 100%
     height 100%
@@ -77,5 +76,4 @@ export default {
           font-size 16px
           color #fff
           background-color #02a774
-
 </style>

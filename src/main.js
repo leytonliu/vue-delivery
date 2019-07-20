@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 引入MintUI
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)
+
 Vue.config.productionTip = false
 
 // 引入vConsole
@@ -17,3 +22,6 @@ new Vue({
   components: {App},
   template: '<App/>'
 })
+
+// const FastClick = require('fastclick')
+// FastClick.attach(document.body)

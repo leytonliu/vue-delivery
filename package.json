@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "cordova": "^9.0.0",
+    "echarts": "^4.2.1",
+    "fastclick": "^1.0.6",
     "mint-ui": "^2.2.13",
+    "mockjs": "^1.0.1-beta3",
     "serve": "^11.1.0",
     "swiper": "^4.5.0",
     "vconsole": "^3.3.2",
